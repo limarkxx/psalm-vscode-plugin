@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "sample-slim-webapp"
+		},
+		{
+			"path": "sample-slim-webapp-psalm5.15"
 		}
 	],
 	"settings": {}

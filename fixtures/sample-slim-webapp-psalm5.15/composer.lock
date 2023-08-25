@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a12055dc5a5749c5a0cbe9794854cc0",
+    "content-hash": "7286c29c357adb3be2c579370f5105c4",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -2564,16 +2564,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "5.13.1",
+            "version": "5.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "086b94371304750d1c673315321a55d15fc59015"
+                "reference": "5c774aca4746caf3d239d9c8cadb9f882ca29352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/086b94371304750d1c673315321a55d15fc59015",
-                "reference": "086b94371304750d1c673315321a55d15fc59015",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/5c774aca4746caf3d239d9c8cadb9f882ca29352",
+                "reference": "5c774aca4746caf3d239d9c8cadb9f882ca29352",
                 "shasum": ""
             },
             "require": {
@@ -2594,12 +2594,15 @@
                 "felixfbecker/language-server-protocol": "^1.5.2",
                 "fidry/cpu-core-counter": "^0.4.1 || ^0.5.1",
                 "netresearch/jsonmapper": "^1.0 || ^2.0 || ^3.0 || ^4.0",
-                "nikic/php-parser": "^4.14",
-                "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0",
+                "nikic/php-parser": "^4.16",
+                "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
                 "sebastian/diff": "^4.0 || ^5.0",
                 "spatie/array-to-xml": "^2.17.0 || ^3.0",
                 "symfony/console": "^4.1.6 || ^5.0 || ^6.0",
                 "symfony/filesystem": "^5.4 || ^6.0"
+            },
+            "conflict": {
+                "nikic/php-parser": "4.17.0"
             },
             "provide": {
                 "psalm/psalm": "self.version"
@@ -2664,9 +2667,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/5.13.1"
+                "source": "https://github.com/vimeo/psalm/tree/5.15.0"
             },
-            "time": "2023-06-27T16:39:49+00:00"
+            "time": "2023-08-20T23:07:30+00:00"
         },
         {
             "name": "webmozart/assert",
